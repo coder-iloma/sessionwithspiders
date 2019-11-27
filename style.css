@@ -1,0 +1,51 @@
+.First{
+	color: blue;
+	text-align: center;
+	margin-top: 80px;
+
+}
+header{
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background-color: yellow;
+	opacity: 0.9;
+}
+header li{
+	display: inline;
+	margin-left: 20px;
+}
+body{
+	margin:0px;
+	background-color: rgb(0,255,0,0.3);
+}
+
+header li:hover{
+	color: black;
+}
+
+h1{
+	text-shadow: 4px 5px 5px red;
+	border-bottom: 4px black solid;
+}
+
+#second{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: yellow;
+}
+
+#second ol{
+	list-style-position: inside;
+}
+
+footer{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
